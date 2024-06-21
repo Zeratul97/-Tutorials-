@@ -1,0 +1,9 @@
+<meta>
+	<info type="script" />
+    <script src="global.lua" type="shared" cache="false" />
+    <script src="server.lua" type="server" />
+    
+    <!-- Importok -->
+   <export function="whiteListSerial" type="shared" />
+    
+</meta>
