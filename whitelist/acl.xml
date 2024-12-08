@@ -1,11 +1,11 @@
 <group name="Admin">
-    <acl name="Moderator" />
-    <acl name="SuperModerator" />
-    <acl name="Admin" />
-    <acl name="RPC" />
-    <object name="resource.admin" />
-    <object name="resource.webadmin" />
-    <object name="resource.acpanel" />
-    <object name="resource.whitelist" />
+   <acl name="Moderator" />
+   <acl name="SuperModerator" />
+   <acl name="Admin" />
+   <acl name="RPC" />
+   <object name="resource.admin" />
+   <object name="resource.webadmin" />
+   <object name="resource.acpanel" />
+   <object name="resource.whitelist" />
       
-   </group>
+</group>
