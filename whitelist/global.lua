@@ -1,15 +1,16 @@
 whiteListSerials = {
-    ["serial"] = true, -- Serial akiket a rendszer fel engedhet a szerverre
+    ["serial"] = true, -- Ide a "serial" helyére írjuk be azokat a serial-kat, akik fel léphetnek a szerverünkre.
+    ["serial"] = true, -- Ide a "serial" helyére írjuk be azokat a serial-kat, akik fel léphetnek a szerverünkre.
 }
 
-function whiteListSerial(data)
-   if (data) then
-        if (whiteListSerials[data]) then
-            return true
-        else
-           return false 
-        end
-   else
-      return false  
-   end
+function getWhiteSerials(player)
+    if (player) then
+        if (whiteListSerials[getPlayerSerial(player)]) then
+            return true        
+        else
+            return false
+        end
+    else
+        return false
+    end
 end
