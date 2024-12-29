@@ -1,1 +1,4 @@
-
+<meta>
+    <info name="loadingline" type="script" />
+    <script src="client.lua" type="client" />
+</meta>
